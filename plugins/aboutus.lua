@@ -2,13 +2,13 @@
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-    		{text = 'Team owners 🤓', callback_data = '!owners'},
+    		{text = 'My Best Friends 👥', callback_data = '!owners'},
 			},
 			{
-			{text = 'Team members 👥', callback_data = '!members'},
+			{text = 'My Friends 👥', callback_data = '!members'},
 			},
 			{
-			{text = 'Our friends 🌹', callback_data = '!friends'},
+			{text = 'My BotMates 🌹', callback_data = '!friends'},
 			},
 			{
 	    {text = '🔙', callback_data = '!home'},
@@ -20,9 +20,9 @@ local function do_keyboard_owners()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-    		{text = '● AmirHo3inF ●', url = 'http://telegram.me/amirho3inf'},},
-			{{text = '● FasT ReaCtoR ●', url = 'http://telegram.me/fastreactor'},},
-			{{text = '● NariMan Master ●', url = 'http://telegram.me/Nawr_i_man'},},
+    		{text = '● ParsaAlemi ●', url = 'http://telegram.me/parsaalemi'},},
+			{{text = '● Valtman ●', url = 'http://telegram.me/Valtman'},},
+			{{text = '● Seyed ●', url = 'http://telegram.me/SeyedKia'},},
 			{{text = '🔙', callback_data = '!aboutus'},
 	    }
     }
@@ -36,18 +36,18 @@ local function do_keyboard_members()
 			{text = '● Mr Jan123 ●', url = 'telegram.me/i_am_jan123'},
 			},
 			{
-			{text = '● MehdiHS ●', url = 'telegram.me/mehdihs'},
-			{text = '● ThisisAmirh ●' , url = 'telegram.me/mr_amirh'},
-			{text = '● M.G.Z ●' , url = 'telegram.me/M_G_Z'},
+			{text = '● Mehdi ●', url = 'telegram.me/Mehdi'},
+			{text = '● Parham ●' , url = 'telegram.me/UnFriendlly'},
+			{text = '● Raman ●' , url = 'telegram.me/Raman'},
 			},
 			{
 			{text = '● MrHaliX ●' , url = 'telegram.me/mrhalix'},
-			{text = '● The PoKeR ●', url = 'telegram.me/UnFriendlly'},
+			{text = '● Pukeram ●', url = 'telegram.me/Pukeram'},
 			},
 			{
-			{text = '● AmircC ●', url = 'telegram.me/Amircc_CreeD'},
+			{text = '● Amir ●', url = 'telegram.me/Alfroshotak'},
 			{text = '● PuKeR ●', url = 'telegram.me/pukers'},
-			{text = '● PediW ●', url = 'telegram.me/pediw'},
+			{text = '● AmirHoseinF ●', url = 'telegram.me/AmirHo3ein_F'},
 			},
 			{
 			{text = '● IDeaCtiVe ●', url = 'telegram.me/Ideactive'},
@@ -95,12 +95,12 @@ local query = blocks[1]
     end
 	if query == 'members' then
 		local keyboard = do_keyboard_members()
-		local text = [[*BeatBotTeam admins 👥 :*]]
+		local text = [[*My Best Friends 👥 :*]]
 		api.editMessageText(chat, msg_id, text, keyboard, true)
     end
 	if query == 'friends' then
 		local keyboard = do_keyboard_friends()
-		local text = [[*BeatBotTeam friends 🌹 :*]]
+		local text = [[*My Friends 🌹 :*]]
 		api.editMessageText(chat, msg_id, text, keyboard, true)
     end
 	end
