@@ -1,8 +1,8 @@
 return {
 	bot_api_key = '',
-	admin = 94746365,
-	log_chat = -1001057801239,
-	channel = '@BeatBot_Team', --channel username with the '@'
+	admin = 207418094,
+	log_chat = -1038466222,
+	channel = '@Optima_Team', --channel username with the '@'
 	languages = 'languages.lua',
 	plugins = {
 		'start.lua','aboutus.lua','contactus.lua',
