@@ -38,7 +38,7 @@ local function do_keyboard_private()
 	        {text = '📥 Start Chat 📤', callback_data = '/chat'},
         },
 		{
-	        {text = 'My Friends 👥', callback_data = '!aboutus'},
+	        {text = 'My Friends 📍', callback_data = '!aboutus'},
         },
 	    {
 	        {text = '🔸OptimaTG🔹', callback_data = '!robot'},
