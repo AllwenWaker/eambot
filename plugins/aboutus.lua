@@ -38,7 +38,7 @@ local function do_keyboard_members()
 			{
 			{text = '● Mehdi ●', url = 'telegram.me/Mehdi'},
 			{text = '● Parham ●' , url = 'telegram.me/UnFriendlly'},
-			{text = '● Raman ●' , url = 'telegram.me/Raman'},
+			{text = '● Raman ●' , url = 'telegram.me/ThisIsRaman'},
 			},
 			{
 			{text = '● MrHaliX ●' , url = 'telegram.me/mrhalix'},
@@ -90,7 +90,7 @@ local query = blocks[1]
     end
 	if query == 'owners' then
 		local keyboard = do_keyboard_owners()
-		local text = [[*My Friends 🌹 :*]]
+		local text = [[**My Friends 🤓 :*]]
 		api.editMessageText(chat, msg_id, text, keyboard, true)
     end
 	if query == 'members' then
