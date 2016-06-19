@@ -18,7 +18,7 @@ local function do_keyboard_buygroup()
     local keyboard = {}
     keyboard.inline_keyboard = {
 {
-    		    		{text = 'Iranians', url = 'http://salam.im/buy/ecgvlup3ld'},
+    		    		{text = 'Iranians', url = 'https://telegram.me/joinchat/DFzy7j3lvK7hZZwb9Af8Og'},
     		    		{text = 'Other countries', url = 'https://telegram.me/joinchat/DFzy7j3lvK7hZZwb9Af8Og'},
 	    },
 	    {
