@@ -100,7 +100,7 @@ local query = blocks[1]
     end
 	if query == 'friends' then
 		local keyboard = do_keyboard_friends()
-		local text = [[*My Botmates 📍 :*]]
+		local text = [[*My Botmates 👥 :*]]
 		api.editMessageText(chat, msg_id, text, keyboard, true)
     end
 	end
