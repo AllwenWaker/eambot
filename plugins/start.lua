@@ -51,7 +51,7 @@ local function do_keyboard_startme()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-    		{text = '🙃👉 Open Allwen Bot ! Click Here ! 👈🙃', url = 'https://telegram.me/'..bot.username}
+    		{text = '🙃👉Click Here! 👈🙃', url = 'https://telegram.me/'..bot.username}
 	    }
     }
     return keyboard
