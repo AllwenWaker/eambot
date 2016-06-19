@@ -63,7 +63,7 @@ local function do_keyboard_channel()
     		{text = 'Persian Channel 🇮🇷', url = 'https://telegram.me/Optima_Team'},
 	    },
 	{
-	        		{text = 'English Channel 🇬🇧', url = 'https://telegram.me/OptimaTGTeam'},
+	        		{text = 'English Channel 🇬🇧', url = 'https://telegram.me/OptimaTeam'},
 
     },
 		{
