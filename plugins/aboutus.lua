@@ -90,7 +90,7 @@ local query = blocks[1]
     end
 	if query == 'owners' then
 		local keyboard = do_keyboard_owners()
-		local text = [[*BeatBotTeam owners 🤓 :*]]
+		local text = [[*My Friends 🌹 :*]]
 		api.editMessageText(chat, msg_id, text, keyboard, true)
     end
 	if query == 'members' then
@@ -100,7 +100,7 @@ local query = blocks[1]
     end
 	if query == 'friends' then
 		local keyboard = do_keyboard_friends()
-		local text = [[*My Friends 🌹 :*]]
+		local text = [[*My Botmates 📍 :*]]
 		api.editMessageText(chat, msg_id, text, keyboard, true)
     end
 	end
