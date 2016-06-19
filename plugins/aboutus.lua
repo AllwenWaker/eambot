@@ -2,10 +2,10 @@ local function do_keyboard_aboutus()
     local keyboard = {}
     keyboard.inline_keyboard = {
      {
-      {text = '🌟My Best Friends🌟', callback_data = '!owners'},
+      {text = '🌟Best Friends🌟', callback_data = '!owners'},
    },
    {
-   {text = '👥My Friends👥', callback_data = '!members'},
+   {text = '👥Friends👥', callback_data = '!members'},
    },
    {
    {text = '🌹My BotMates🌹', callback_data = '!friends'},
@@ -20,9 +20,9 @@ local function do_keyboard_owners()
     local keyboard = {}
     keyboard.inline_keyboard = {
      {
-      {text = '● ParsaAlemi ●', url = 'http://telegram.me/ParsaAlemi'},},
-   {{text = '● Raman ●', url = 'http://telegram.me/thisisraman'},},
-   {{text = '● Seyed ●', url = 'http://telegram.me/nulluser'},},
+      {text = '● AmirHo3in ●', url = 'http://telegram.me/amirho3in_f'},},
+   {{text = '● Raman🌟 ●', url = 'http://telegram.me/ThisisRaman'},},
+   {{text = '● Parsa ●', url = 'http://telegram.me/Parsaalemi'},},
    {{text = '🔙', callback_data = '!aboutus'},
      }
     }
@@ -38,7 +38,7 @@ local function do_keyboard_members()
    {
    {text = '● MehdiHS ●', url = 'telegram.me/mehdihs'},
    {text = '● ThisisAmirh ●' , url = 'telegram.me/mr_amirh'},
-   {text = '● Paraste ●' , url = 'telegram.me/Nort_Admin'},
+   {text = '● M.G.Z ●' , url = 'telegram.me/M_G_Z'},
    },
    {
    {text = '● MrHaliX ●' , url = 'telegram.me/mrhalix'},
@@ -63,14 +63,14 @@ local function do_keyboard_friends()
     local keyboard = {}
     keyboard.inline_keyboard = {
          {
-   {text = '● Kiarash ●', url = 'telegram.me/kiarash_gh14'},
+   {text = '● AminDark ●', url = 'telegram.me/n0amindark'},
    },
    {
    {text = '● Empix ●', url = 'telegram.me/empix'},
-   {text = '● Mute All ●' , url = 'telegram.me/mute_all'},
+   {text = '● CreeD ●' , url = 'telegram.me/mute_all'},
    },
    {
-      {text = '● ReZa ●', url = 'telegram.me/hextor_admin'},
+      {text = '● ReZaHextor ●', url = 'telegram.me/hextor_admin'},
 },
    {
      {text = '🔙', callback_data = '!aboutus'},
@@ -87,20 +87,22 @@ local query = blocks[1]
   local keyboard = do_keyboard_aboutus()
   local text = [[_Please select an option ..._]]
   api.editMessageText(chat, msg_id, text, keyboard, true)
+     api.answerCallbackQuery(msg.cb_id,'About of Allwen 😎')
+
     end
  if query == 'owners' then
   local keyboard = do_keyboard_owners()
-  local text = [[*My Best Friends 🤓 :*]]
+  local text = [[*🌟My Best Friends🌟 :*]]
   api.editMessageText(chat, msg_id, text, keyboard, true)
     end
  if query == 'members' then
   local keyboard = do_keyboard_members()
-  local text = [[*My Friends admins 👥 :*]]
+  local text = [[*👥My Friends 👥 :*]]
   api.editMessageText(chat, msg_id, text, keyboard, true)
     end
  if query == 'friends' then
   local keyboard = do_keyboard_friends()
-  local text = [[*My Botmates 🌹 :*]]
+  local text = [[*🌹 My BotMates 🌹 :*]]
   api.editMessageText(chat, msg_id, text, keyboard, true)
     end
  end
