@@ -1,5 +1,5 @@
 return {
-	bot_api_key = '224540451:AAEo4sTTQ0hbHTRmTKznUK8-GS0VmBmR4E8',
+	bot_api_key = '2خعبخع',
 	admin = 207418094,
 	log_chat = -1038466222,
 	channel = '@Optima_Team', --channel username with the '@'
