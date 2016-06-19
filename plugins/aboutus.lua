@@ -22,7 +22,7 @@ local function do_keyboard_owners()
     	{
     		{text = '● ParsaAlemi ●', url = 'http://telegram.me/parsaalemi'},},
 			{{text = '● Valtman ●', url = 'http://telegram.me/Valtman'},},
-			{{text = '● Seyed ●', url = 'http://telegram.me/SeyedKia'},},
+			{{text = '● Raman ●', url = 'http://telegram.me/ThisisRaman'},},
 			{{text = '🔙', callback_data = '!aboutus'},
 	    }
     }
