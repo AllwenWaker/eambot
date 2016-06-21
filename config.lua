@@ -5,7 +5,7 @@ return {
 	channel = '@ElementTeam', --channel username with the '@'
 	languages = 'languages.lua',
 	plugins = {
-		'start.lua','aboutus.lua','contactus.lua','users.lua',
+		'start.lua','aboutus.lua','contactus.lua','users.lua','help.lua',
 	},
 	available_languages = {
 		'en',
