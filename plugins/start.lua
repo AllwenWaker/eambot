@@ -6,7 +6,7 @@ local function do_keyboard_robot()
     					},
     					{
     		    		{text = 'Buy Group 💸', callback_data = '!buygroup'},
-    		    		{text = 'Support 👥', url = 'https://telegram.me/joinchat/DFzy7j3lvK7hZZwb9Af8Og'},
+    		    		{text = 'Support 👥', url = 'https://telegram.me/joinchat/DFzy7j7-_0w5XKoataYwPA'},
 	    },
 	    {
 	    {text = '🔙', callback_data = '!home'}
@@ -18,8 +18,8 @@ local function do_keyboard_buygroup()
     local keyboard = {}
     keyboard.inline_keyboard = {
 {
-    		    		{text = 'Iranians', url = 'https://telegram.me/joinchat/DFzy7j3lvK7hZZwb9Af8Og'},
-    		    		{text = 'Other countries', url = 'https://telegram.me/joinchat/DFzy7j3lvK7hZZwb9Af8Og'},
+    		    		{text = 'Iranians', url = 'https://telegram.me/joinchat/DFzy7j7-_0w5XKoataYwPA'},
+    		    		{text = 'Other countries', url = 'https://telegram.me/joinchat/DFzy7j7-_0w5XKoataYwPA'},
 	    },
 	    {
 	    {text = '🔙', callback_data = '!robot'}
@@ -35,13 +35,13 @@ local function do_keyboard_private()
     		{text = '📡 Channels', callback_data = '!channel'},
 	    },
 		{
-	        {text = '📥 Start Chat 📤', callback_data = '/chat'},
+	        {text = 'Chat Mode 💥', callback_data = '/chat'},
         },
 		{
 	        {text = 'My Friends 📍', callback_data = '!aboutus'},
         },
 	    {
-	        {text = '🔸OptimaTG🔹', callback_data = '!robot'},
+	        {text = 'ElementTG🔹', callback_data = '!robot'},
         }
     }
     return keyboard
@@ -60,14 +60,14 @@ local function do_keyboard_channel()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-    		{text = 'Persian Channel 🇮🇷', url = 'https://telegram.me/Optima_Team'},
+    		{text = 'Persian Channel 🇮🇷', url = 'https://telegram.me/ElementTeam'},
 	    },
 	{
-	        		{text = 'English Channel 🇬🇧', url = 'https://telegram.me/OptimaTeam'},
+	        		{text = 'English Channel 🇬🇧', url = 'https://telegram.me/ElementTeam'},
 
     },
 		{
-					{text = 'News Channel 🗣', url = 'https://telegram.me/OptimaNews'},
+					{text = 'News Channel 🗣', url = 'https://telegram.me/ElementNews'},
 		},
 		{
 	    {text = '🔙', callback_data = '!home'},
@@ -99,12 +99,12 @@ local action = function(msg, blocks, ln)
         local msg_id = msg.message_id
         local text
         if query == 'channel' then
-            local text = '📡 *OptimaTG Channels :*'
+            local text = '📡 *ElementTG Channels :*'
             local keyboard = do_keyboard_channel()
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
 end
 if query == 'robot' then
-            local text = [[🔸*OptimaTG*🔹
+            local text = [[🔸*ElementTG*🔹
 🚩 _An advanced robot for entertainment group manager and anti-spam_]]
             local keyboard = do_keyboard_robot()
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
@@ -123,7 +123,7 @@ if query == 'home' then
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
 end
         if query == 'share' then
-     api.sendContact(msg.from.id, '+12818539367', '🔸Optima🔹 [ Use ! ]')
+     api.sendContact(msg.from.id, '+12818539367', 'єlє๓єภt๒๏t')
 end
     end
 
