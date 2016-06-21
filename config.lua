@@ -1,11 +1,11 @@
 return {
-	bot_api_key = 'توکن',
+	bot_api_key = '224540451:AAH18BrF6rhL-_e-xUEJ-BKV_apgE6lJYlI',
 	admin = 207418094,
 	log_chat = -1038466222,
-	channel = '@Optima_Team', --channel username with the '@'
+	channel = '@ElementTeam', --channel username with the '@'
 	languages = 'languages.lua',
 	plugins = {
-		'start.lua','aboutus.lua','contactus.lua',
+		'start.lua','aboutus.lua','contactus.lua','plugins.lua',
 	},
 	available_languages = {
 		'en',
